@@ -16,7 +16,7 @@
 
 ## Descripción General
 
-Este repositorio constituye el portafolio integral de las soluciones de software desarrolladas durante el curso. El avance programático demuestra la transición desde los fundamentos lógicos del lenguaje Dart en consola, pasando por el diseño declarativo de interfaces de usuario, hasta la integración de flujos reactivos asíncronos y consumo de hardware multimedia nativo en dispositivos móviles.
+Este repositorio sería el portafolio de las soluciones de software desarrolladas durante el semestre. El avance en los proyectos demuestra la transición desde los fundamentos lógicos del lenguaje Dart en consola, pasando por el diseño declarativo de interfaces de usuario, hasta la integración de flujos reactivos asíncronos y consumo de hardware multimedia nativo en dispositivos móviles.
 
 ### Competencias Desarrolladas
 * **Modelado y Arquitectura Orientada a Objetos:** Implementación de clases con constructores nominales y factorías (`factory`) para mapeo seguro de datos serializados (JSON).
@@ -43,6 +43,6 @@ Este repositorio constituye el portafolio integral de las soluciones de software
 | :--- | :--- | :--- |
 | **Dart** | Lenguaje | Lógica de programación, manipulación de colecciones y desarrollo nativo/multiplataforma. |
 | **Flutter** | Framework | Construcción de interfaces de usuario responsivas, renderizado y conexión con APIs móviles. |
-| **Git & GitHub** | Herramienta | Control de versiones, auditoría de código y despliegue estructurado del portafolio académico. |
+| **Git & GitHub** | Herramienta | Control de versiones, y despliegue estructurado del portafolio académico. |
 
 ---
