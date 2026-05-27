@@ -1,0 +1,17 @@
+[
+  { "nombre": "Ana García", "edad": 25, "salario": 12500.50 },
+  { "nombre": "Luis Pérez", "edad": 30, "salario": 15000.00 },
+  { "nombre": "Marta Sol", "edad": 22, "salario": 11800.00 },
+  { "nombre": "Carlos Mendoza", "edad": 28, "salario": 14200.75 },
+  { "nombre": "Sofía Ramos", "edad": 35, "salario": 18500.00 },
+  { "nombre": "Juan Delgado", "edad": 40, "salario": 22000.50 },
+  { "nombre": "Elena Torres", "edad": 24, "salario": 10500.00 },
+  { "nombre": "Ricardo Luna", "edad": 33, "salario": 16700.25 },
+  { "nombre": "Lucía Méndez", "edad": 27, "salario": 13900.00 },
+  { "nombre": "Roberto Sanz", "edad": 45, "salario": 25000.00 },
+  { "nombre": "Gabriela Ríos", "edad": 21, "salario": 9800.00 },
+  { "nombre": "Fernando Ruiz", "edad": 38, "salario": 19200.80 },
+  { "nombre": "Valeria Castro", "edad": 29, "salario": 15400.00 },
+  { "nombre": "Hugo Ortiz", "edad": 31, "salario": 14800.60 },
+  { "nombre": "Beatriz Peña", "edad": 26, "salario": 12100.00 }
+]
