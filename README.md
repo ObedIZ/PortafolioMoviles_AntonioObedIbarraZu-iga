@@ -37,12 +37,15 @@ Este repositorio sería el portafolio de las soluciones de software desarrollada
 
 ---
 
-## Tecnologías e Infraestructura
+## 🛠️ Tecnologías e Infraestructura
 
 | Tecnología / Herramienta | Tipo | Uso Principal |
-| :--- | :--- | :--- |
-| **Dart** | Lenguaje | Lógica de programación, manipulación de colecciones y desarrollo nativo/multiplataforma. |
-| **Flutter** | Framework | Construcción de interfaces de usuario responsivas, renderizado y conexión con APIs móviles. |
-| **Git & GitHub** | Herramienta | Control de versiones, y despliegue estructurado del portafolio académico. |
+| :---: | :--- | :--- |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart" width="25"/> <br> **Dart** | Lenguaje de Programación | Lógica de programación backend, manipulación de estructuras de datos orientadas a objetos y flujos asíncronos. |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="flutter" width="25"/> <br> **Flutter** | Framework Móvil | Construcción y renderizado declarativo de interfaces de usuario (UI) responsivas y conexión con hardware nativo. |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="25"/> <br> **Visual Studio Code** | Entorno de Desarrollo (IDE) | Editor de código principal utilizado para la programación, depuración y gestión de extensiones del entorno. |
+| <img src="https://img.icons8.com/?size=512&id=55205&format=svg" alt="json" width="25"/> <br> **JSON** | Formato de Datos | Estructuración, almacenamiento local serializado e intercambio de información mediante nodos clave-valor. |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="25"/> <br> **Git** | Control de Versiones | Gestión local del historial de cambios, control de ramas (*branches*) y auditoría del código fuente. |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="25"/> <br> **GitHub** | Plataforma de Alojamiento | Despliegue en la nube del portafolio académico, control remoto de repositorios y documentación formal. |
 
 ---
