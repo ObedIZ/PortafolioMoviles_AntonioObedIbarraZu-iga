@@ -29,7 +29,7 @@ Este repositorio constituye el portafolio integral de las soluciones de software
 
 ## Lista de Proyectos Incluidos
 
-| Proyecto | Descripción | Tecnologías Clave | Enlace |
+| Proyecto | Descripción | Tecnologías Clave |
 | :--- | :--- | :--- | :--- |
 | **Proyecto 1:** Análisis de Datos con Dart | Aplicación de consola interactiva con un menú estructurado para cargar registros JSON, realizar búsquedas normalizadas por nombre, calcular estadísticas avanzadas (promedios, rangos de edad) y exportar reportes analíticos. | Dart (Console), `dart:io`, `dart:convert` |
 | **Proyecto 2:** Aplicación en Flutter (*namer_app*) | Primera aplicación móvil multiplataforma orientada al diseño de interfaces de usuario. Implementa generación de palabras aleatorias, marcado/desmarcado de elementos favoritos en tiempo real y una vista de resumen de datos guardados. | Flutter Framework, State Management, Widgets |
