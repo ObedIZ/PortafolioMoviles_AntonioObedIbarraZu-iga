@@ -37,7 +37,7 @@ Este repositorio sería el portafolio de las soluciones de software desarrollada
 
 ---
 
-## 🛠️ Tecnologías e Infraestructura
+## Tecnologías e Infraestructura
 
 | Tecnología / Herramienta | Tipo | Uso Principal |
 | :---: | :--- | :--- |
