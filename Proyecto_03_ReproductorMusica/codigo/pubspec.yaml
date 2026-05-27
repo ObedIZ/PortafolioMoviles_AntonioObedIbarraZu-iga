@@ -1,0 +1,49 @@
+# Nombre oficial del paquete o aplicación en el sistema
+name: aplicacion
+# Una breve descripción de lo que hace el proyecto
+description: "A new Flutter project."
+
+# Evita que publiques por error este proyecto en pub.dev (la tienda pública de código de Flutter)
+publish_to: 'none' 
+
+# La versión actual de la aplicación. 
+version: 1.0.0+1
+
+# Define con qué versiones del kit de desarrollo (SDK) de Dart es compatible tu código
+environment:
+  sdk: ^3.11.1
+
+# Aquí se declaran todas las librerías externas que tu app necesita para funcionar
+dependencies:
+  # El núcleo de Flutter para poder compilar componentes visuales
+  flutter:
+    sdk: flutter
+    
+  # Librería encargada de controlar el hardware de audio, reproducir archivos locales, pausar y detener pistas
+  just_audio: ^0.10.2
+  
+  # Extensión de programación reactiva que usamos para combinar los flujos de tiempo (Streams) del reproductor
+  rxdart: ^0.28.0
+
+  # Iconos estéticos por defecto basados en el estilo visual de Apple (iOS)
+  cupertino_icons: ^1.0.8
+
+# Dependencias exclusivas para el programador (no se incluyen en el teléfono del usuario final)
+dev_dependencies:
+  # Herramienta para realizar pruebas automatizadas de código
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+# Configuración específica del motor de Flutter
+flutter:
+
+  # Activa el soporte para los componentes visuales y temas de Material Design (el estándar estético de Google)
+  uses-material-design: true
+
+  # Sección de ASSETS: Registro obligatorio de las carpetas físicas que contienen los archivos de la app.
+  # Si un archivo no está registrado en estas rutas, Flutter no dejará cargarlo en pantalla.
+  assets:
+     - assets/images/  # Carpeta donde guardas las portadas y carátulas (ej. Cover.jpg)
+     - assets/audio/   # Carpeta donde guardas tus archivos de música en formato .mp3
