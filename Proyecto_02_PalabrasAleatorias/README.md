@@ -39,7 +39,22 @@ La aplicación soluciona la necesidad de generar de forma automatizada y dinámi
 
 ## 6. Instrucciones de Ejecución y Despliegue
 
-Sigue estos pasos detallados para clonar el proyecto, preparar el entorno en tu computadora local y desplegar la aplicación de forma correcta.
+Sigue estos pasos detallados para clonar el proyecto, preparar el entorno en tu computadora local y desplegar la aplicación utilizando las interfaces de escritorio o navegadores web compatibles.
+
+### 1. Requisitos Previos
+* Tener correctamente instalado y configurado el entorno de **Flutter SDK** junto con el motor de **Dart** en las variables de entorno de tu sistema operativo.
+* Contar con **Visual Studio Code** junto con las extensiones oficiales de *Flutter* y *Dart* listas para trabajar.
+* Disponer de un entorno compatible para el despliegue (Google Chrome, Microsoft Edge o la configuración nativa de Windows Desktop habilitada en tu canal de Flutter).
+
+### 2. Clonar el Proyecto
+Abre una terminal de comandos en tu equipo y descarga el código fuente completo desde el repositorio oficial del portafolio ejecutando:
+```
+git clone [https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git](https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git) 
+```
+
+### 3. Entrar al Directorio del Proyecto
+Navega mediante la línea de comandos hacia la ubicación exacta de la carpeta raíz de este segundo proyecto (donde se encuentran el archivo pubspec.yaml y la carpeta lib/):
+
 
 ## 7. Reflexión Personal
 ¿Qué aprendí?: Este proyecto significó mi introducción al framework de Flutter. Comprendí de manera práctica la filosofía de diseño móvil donde "todo es un widget" y asimilé los beneficios de la arquitectura declarativa, entendiendo cómo separar por completo la capa de los datos de negocio de la vista visual del usuario para lograr flujos de desarrollo mucho más rápidos y limpios.
