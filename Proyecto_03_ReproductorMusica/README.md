@@ -46,5 +46,27 @@ Sigue estos pasos detallados para clonar el proyecto, preparar el entorno en tu 
 ### 2. Clonar el Proyecto
 Abre una terminal de comandos en tu equipo y descarga el código fuente completo desde el repositorio oficial del portafolio ejecutando:
 ```
-git clone [https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git](https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git)
+git clone https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git
 ```
+### 3. Entrar al Directorio del Proyecto
+Navega mediante la línea de comandos hacia la ubicación exacta de la carpeta raíz de este tercer proyecto (donde se encuentran el archivo pubspec.yaml y la carpeta lib/):
+```
+cd Proyecto_03_ReproductorMusica/codigo
+```
+### 4. Sincronizar y Restaurar Dependencias
+Utiliza la terminal para descargar e instalar los paquetes especificados en la configuración del proyecto (just_audio y rxdart):
+```
+flutter clean
+flutter pub get
+```
+### 5. Desplegar la Aplicación
+Para iniciar el proceso de compilación y desplegar la interfaz del reproductor directamente en tu entorno local (ya sea como ventana nativa de Windows o mediante una pestaña de navegador web), ejecuta el siguiente comando:
+```
+flutter run
+```
+7. Reflexión Personal
+¿Qué aprendí?: Comprendi cómo los Streams transportan información constante milisegundo a milisegundo y cómo el widget StreamBuilder los procesa de manera automática dio una perspectiva  nueva sobre la optimización del rendimiento en aplicaciones móviles y de escritorio.
+
+¿Qué fue difícil?: El reto más complicado fue la configuración y la sintaxis de los assets dentro del archivo pubspec.yaml. Al principio la aplicación no mostraba la imagen ni reproducía el audio porque estas funciones vienen comentadas por defecto en el archivo. Luego de eso surgió otro pequeño problema al tener que quitar la documentación manual de las líneas de código quitando los símbolos de #; al hacer esto, la indentación (spacing) en los archivos YAML es exigente, por lo que un solo espacio de más o de menos hacia la derecha rompe por completo la estructura, lo que me generó varios errores de compilación.
+
+¿Qué mejoraría?: En una futura iteración del sistema, mejoraría el reproductor agregando un módulo de lista de reproducción dinámico (Playlist). Esto permitiría inyectar un arreglo continuo de audio-assets para automatizar la secuencia de pistas multimedia, habilitando funciones nativas avanzadas como saltar a la siguiente canción (.skipToNext()), retroceder (.skipToPrevious()) y activar el orden aleatorio (Shuffle).
