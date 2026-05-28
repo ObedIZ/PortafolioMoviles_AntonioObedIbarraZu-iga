@@ -19,6 +19,32 @@ Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos d
 
 ## 5. Capturas de Pantalla
 *A continuación se muestra el funcionamiento del sistema interactivo en la terminal:*
+* **1. Carga de Archivo JSON:** Evidencia de la lectura inicial y exitosa del archivo de datos al arrancar el script.  
+  ![Carga de archivo JSON](../capturas/Carga%20de%20archivo%20JSON.png)
+
+* **2. Menú Aplicación:** Despliegue del menú interactivo en la terminal con todas las opciones disponibles para el usuario.  
+  ![Menu Aplicacion](../capturas/Menu%20Aplicacion.png)
+
+* **3. Mostrar Registros:** Impresión completa y formateada en consola de todos los usuarios extraídos del JSON.  
+  ![Mostrar Registros](../capturas/Mostrar%20Registros.png)
+
+* **4. Búsqueda Usuario:** Ejemplo práctico de filtrado individual ingresando el nombre de una persona específica.  
+  ![Busqueda Usuario](../capturas/Busqueda%20Usuario.png)
+
+* **5. Estadísticas:** Ejecución del módulo matemático que procesa promedios de salarios y rangos de edades.  
+  ![Estadisticas](../capturas/Estadisticas.png)
+
+* **6. Creación Resumen:** Confirmación por parte de la aplicación de que los datos analizados fueron recopilados con éxito.  
+  ![Creacion Resumen](../capturas/Creacion%20Resumen.png)
+
+* **7. Resumen Ubicación:** Captura que demuestra en qué parte del directorio local se guardó el nuevo reporte generado.  
+  ![Resumen Ubicacion](../capturas/Resumen%20Ubicacion.png)
+
+* **8. Resumen:** Vista interna del nuevo archivo estructurado (`resumen_analisis.json`) con las métricas finales listas.  
+  ![Resumen](../capturas/Resumen.png)
+
+* **9. Salida:** Finalización formal de la ejecución del programa y liberación de la consola de comandos.  
+  ![Salida](../capturas/Salida.png)
 
 ## 6. Instrucciones de Ejecución
 1. Asegúrate de tener el SDK de Dart instalado en tu computador.
