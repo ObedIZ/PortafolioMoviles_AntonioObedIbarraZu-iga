@@ -41,3 +41,9 @@ La aplicación soluciona la necesidad de generar de forma automatizada y dinámi
 
 Sigue estos pasos detallados para clonar el proyecto, preparar el entorno en tu computadora local y desplegar la aplicación de forma correcta.
 
+## 7. Reflexión Personal
+¿Qué aprendí?: Este proyecto significó mi introducción al framework de Flutter. Comprendí de manera práctica la filosofía de diseño móvil donde "todo es un widget" y asimilé los beneficios de la arquitectura declarativa, entendiendo cómo separar por completo la capa de los datos de negocio de la vista visual del usuario para lograr flujos de desarrollo mucho más rápidos y limpios.
+
+¿Qué fue difícil?: El reto técnico principal radicó en dominar la navegación responsiva dinámica utilizando el NavigationRail en combinación con la renderización selectiva en pantallas dinámicas. También requirió especial atención coordinar el gestor de estados para que la vista de favoritos (FavoritesPage) eliminara o agregara elementos en tiempo real e instantáneamente sin interrumpir la experiencia de usuario.
+
+¿Qué mejoraría?: En una futura versión del proyecto, implementaría persistencia de datos persistente mediante almacenamiento en disco local (usando paquetes como shared_preferences o bases de datos como Hive). De esta forma, la colección de palabras seleccionadas por el usuario como favoritas no se perdería al cerrar por completo el proceso de la aplicación en el dispositivo móvil.
