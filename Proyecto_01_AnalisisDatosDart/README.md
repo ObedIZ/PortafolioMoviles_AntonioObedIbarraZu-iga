@@ -24,3 +24,10 @@ Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos d
 1. Asegúrate de tener el SDK de Dart instalado en tu computador.
 2. Coloca el archivo fuente `datos.json` en la misma raíz del script.
 3. Abre la terminal en el directorio del proyecto y ejecuta el siguiente comando: dart run Proyecto.dart
+
+## 7. Reflexión Personal
+¿Qué aprendí?: Comprendí a fondo la estructura asíncrona de Dart para leer archivos y el poder de los constructores factory para transformar datos planos (JSON) en objetos fuertemente tipados con los que el compilador puede trabajar de forma segura.
+
+¿Qué fue difícil?: La correcta implementación de los métodos funcionales como .fold() para calcular promedios acumulados y asegurar que las operaciones asíncronas (async/await) no bloquearan el flujo del menú interactivo.
+
+¿Qué mejoraría?: Implementar una función para que el usuario pueda añadir nuevos registros directamente desde la consola hacia el archivo datos.json sin tener que editar el archivo de texto manualmente.
