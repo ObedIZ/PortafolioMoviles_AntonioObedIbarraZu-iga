@@ -49,12 +49,28 @@ Sigue estos pasos detallados para clonar el proyecto, preparar el entorno en tu 
 ### 2. Clonar el Proyecto
 Abre una terminal de comandos en tu equipo y descarga el código fuente completo desde el repositorio oficial del portafolio ejecutando:
 ```
-git clone [https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git](https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git) 
+git clone https://github.com/ObedIZ/PortafolioMoviles_AntonioObedIbarraZu-iga.git
 ```
 
 ### 3. Entrar al Directorio del Proyecto
 Navega mediante la línea de comandos hacia la ubicación exacta de la carpeta raíz de este segundo proyecto (donde se encuentran el archivo pubspec.yaml y la carpeta lib/):
+```
+cd Proyecto_02_PalabrasAleatorias/codigo
+```
 
+### 4. Sincronizar y Restaurar Dependencias
+Utiliza la terminal integrada de Visual Studio Code para descargar e instalar localmente los paquetes externos especificados en la configuración del proyecto (provider y english_words):
+```
+flutter pub get
+```
+> **Tip en Visual Studio Code:** Si el proyecto esta abierto en VS Code, se puede dar clic en la barra de estado inferior para seleccionar tu dispositivo objetivo (Chrome, Edge o Windows), y presionar la tecla F5 para lanzar la aplicación.
+
+
+### 5. Desplegar la Aplicación
+Para iniciar el proceso de compilación y desplegar la interfaz directamente en tu entorno local (ya sea como ventana nativa de Windows o mediante una pestaña de navegador web como Chrome o Edge), ejecuta el siguiente comando:
+```
+flutter run
+```
 
 ## 7. Reflexión Personal
 ¿Qué aprendí?: Este proyecto significó mi introducción al framework de Flutter. Comprendí de manera práctica la filosofía de diseño móvil donde "todo es un widget" y asimilé los beneficios de la arquitectura declarativa, entendiendo cómo separar por completo la capa de los datos de negocio de la vista visual del usuario para lograr flujos de desarrollo mucho más rápidos y limpios.
