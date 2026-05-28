@@ -7,6 +7,7 @@ Desarrollar una aplicación de línea de comandos (CLI) interactiva en Dart que 
 Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos de registros de personal (nombres, edades, salarios). En lugar de calcular promedios y buscar perfiles de manera tradicional, el sistema centraliza la información en un archivo local y genera reportes analíticos instantáneos sin requerir una interfaz gráfica pesada.
 
 ## 3. Tecnologías Utilizadas
+* **Visual Studio Code:** Programa para ejecutar el código.
 * **Dart (Console SDK):** Núcleo del lenguaje para la lógica del sistema.
 * **dart:io:** Librería nativa para la manipulación y persistencia de archivos en el sistema local.
 * **dart:convert:** Decodificación y codificación de flujos de texto plano a objetos JSON y viceversa.
@@ -20,31 +21,31 @@ Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos d
 ## 5. Capturas de Pantalla
 *A continuación se muestra el funcionamiento del sistema interactivo en la terminal:*
 * **1. Carga de Archivo JSON:** Evidencia de la lectura inicial y exitosa del archivo de datos al arrancar el script.  
-  ![Carga de archivo JSON](../capturas/Carga%20de%20archivo%20JSON.png)
+  ![Carga de archivo JSON](./capturas/Carga_archivo_JSON.png)
 
 * **2. Menú Aplicación:** Despliegue del menú interactivo en la terminal con todas las opciones disponibles para el usuario.  
-  ![Menu Aplicacion](../capturas/Menu%20Aplicacion.png)
+  ![Menu Aplicacion](./capturas/Menu_Aplicacion.png)
 
 * **3. Mostrar Registros:** Impresión completa y formateada en consola de todos los usuarios extraídos del JSON.  
-  ![Mostrar Registros](../capturas/Mostrar%20Registros.png)
+  ![Mostrar Registros](./capturas/Mostrar_Registros.png)
 
 * **4. Búsqueda Usuario:** Ejemplo práctico de filtrado individual ingresando el nombre de una persona específica.  
-  ![Busqueda Usuario](../capturas/Busqueda%20Usuario.png)
+  ![Busqueda Usuario](./capturas/Busqueda_Usuario.png)
 
 * **5. Estadísticas:** Ejecución del módulo matemático que procesa promedios de salarios y rangos de edades.  
-  ![Estadisticas](../capturas/Estadisticas.png)
+  ![Estadisticas](./capturas/Estadisticas.png)
 
 * **6. Creación Resumen:** Confirmación por parte de la aplicación de que los datos analizados fueron recopilados con éxito.  
-  ![Creacion Resumen](../capturas/Creacion%20Resumen.png)
+  ![Creacion Resumen](./capturas/Creacion_Resumen.png)
 
 * **7. Resumen Ubicación:** Captura que demuestra en qué parte del directorio local se guardó el nuevo reporte generado.  
-  ![Resumen Ubicacion](../capturas/Resumen%20Ubicacion.png)
+  ![Resumen Ubicacion](./capturas/Resumen_Ubicacion.png)
 
 * **8. Resumen:** Vista interna del nuevo archivo estructurado (`resumen_analisis.json`) con las métricas finales listas.  
-  ![Resumen](../capturas/Resumen.png)
+  ![Resumen](./capturas/Resumen.png)
 
 * **9. Salida:** Finalización formal de la ejecución del programa y liberación de la consola de comandos.  
-  ![Salida](../capturas/Salida.png)
+  ![Salida](./capturas/Salida.png)
 
 ## 6. Instrucciones de Ejecución
 1. Asegúrate de tener el SDK de Dart instalado en tu computador.
