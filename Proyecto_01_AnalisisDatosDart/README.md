@@ -20,7 +20,7 @@ Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos d
 ## 5. Capturas de Pantalla
 *A continuación se muestra el funcionamiento del sistema interactivo en la terminal:*
 * **1. Carga de Archivo JSON:** Evidencia de la lectura inicial y exitosa del archivo de datos al arrancar el script.  
-  ![Carga de archivo JSON](../capturas/Carga_archivo_JSON.png)
+  ![Carga de archivo JSON](./capturas/Carga_archivo_JSON.png)
 
 * **2. Menú Aplicación:** Despliegue del menú interactivo en la terminal con todas las opciones disponibles para el usuario.  
   ![Menu Aplicacion](../capturas/Menu%20Aplicacion.png)
