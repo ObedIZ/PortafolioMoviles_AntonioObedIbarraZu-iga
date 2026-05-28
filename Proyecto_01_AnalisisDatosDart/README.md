@@ -7,6 +7,7 @@ Desarrollar una aplicación de línea de comandos (CLI) interactiva en Dart que 
 Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos de registros de personal (nombres, edades, salarios). En lugar de calcular promedios y buscar perfiles de manera tradicional, el sistema centraliza la información en un archivo local y genera reportes analíticos instantáneos sin requerir una interfaz gráfica pesada.
 
 ## 3. Tecnologías Utilizadas
+* **Visual Studio Code:** Programa para ejecutar el código.
 * **Dart (Console SDK):** Núcleo del lenguaje para la lógica del sistema.
 * **dart:io:** Librería nativa para la manipulación y persistencia de archivos en el sistema local.
 * **dart:convert:** Decodificación y codificación de flujos de texto plano a objetos JSON y viceversa.
