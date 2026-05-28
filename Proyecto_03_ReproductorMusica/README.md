@@ -64,7 +64,8 @@ Para iniciar el proceso de compilación y desplegar la interfaz del reproductor 
 ```
 flutter run
 ```
-7. Reflexión Personal
+## 7. Reflexión Personal
+
 ¿Qué aprendí?: Comprendi cómo los Streams transportan información constante milisegundo a milisegundo y cómo el widget StreamBuilder los procesa de manera automática dio una perspectiva  nueva sobre la optimización del rendimiento en aplicaciones móviles y de escritorio.
 
 ¿Qué fue difícil?: El reto más complicado fue la configuración y la sintaxis de los assets dentro del archivo pubspec.yaml. Al principio la aplicación no mostraba la imagen ni reproducía el audio porque estas funciones vienen comentadas por defecto en el archivo. Luego de eso surgió otro pequeño problema al tener que quitar la documentación manual de las líneas de código quitando los símbolos de #; al hacer esto, la indentación (spacing) en los archivos YAML es exigente, por lo que un solo espacio de más o de menos hacia la derecha rompe por completo la estructura, lo que me generó varios errores de compilación.
