@@ -1,4 +1,6 @@
-# Análisis de Datos con Dart
+# Proyecto 1: Análisis de Datos con Dart
+
+---
 
 ## 1. Objetivo del Proyecto
 Desarrollar una aplicación de línea de comandos (CLI) interactiva en Dart que permita procesar de manera automatizada colecciones de datos estructuradas en formato JSON, realizando búsquedas, filtrados y cálculos estadísticos de forma eficiente.
@@ -48,10 +50,15 @@ Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos d
   ![Salida](./capturas/Salida.png)
 
 ## 6. Instrucciones de Ejecución
-1. Asegúrate de tener el SDK de Dart instalado en tu computador.
-2. Coloca el archivo fuente `datos.json` en la misma raíz del script.
-3. Abre la terminal en el directorio del proyecto y ejecuta el siguiente comando: dart run Proyecto.dart
-
+1. Asegúrate de tener el SDK de Dart instalado en tu computador. 
+```
+dart --version
+```
+3. Coloca el archivo fuente `datos.json` en la misma raíz del script.
+4. Abre la terminal en el directorio del proyecto y ejecuta el siguiente comando:
+```
+dart run Proyecto.dart
+```
 ## 7. Reflexión Personal
 ¿Qué aprendí?: Comprendí a fondo la estructura asíncrona de Dart para leer archivos y el poder de los constructores factory para transformar datos planos (JSON) en objetos fuertemente tipados con los que el compilador puede trabajar de forma segura.
 
