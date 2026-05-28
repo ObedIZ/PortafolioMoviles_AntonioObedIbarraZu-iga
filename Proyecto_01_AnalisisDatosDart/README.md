@@ -1,4 +1,4 @@
-# Análisis de Datos con Dart
+# Proyecto 1: Análisis de Datos con Dart
 
 ## 1. Objetivo del Proyecto
 Desarrollar una aplicación de línea de comandos (CLI) interactiva en Dart que permita procesar de manera automatizada colecciones de datos estructuradas en formato JSON, realizando búsquedas, filtrados y cálculos estadísticos de forma eficiente.
