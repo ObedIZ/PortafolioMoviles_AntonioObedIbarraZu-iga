@@ -50,9 +50,12 @@ Automatiza la lectura y el procesamiento manual de grandes volúmenes de datos d
   ![Salida](./capturas/Salida.png)
 
 ## 6. Instrucciones de Ejecución
-1. Asegúrate de tener el SDK de Dart instalado en tu computador.
-2. Coloca el archivo fuente `datos.json` en la misma raíz del script.
-3. Abre la terminal en el directorio del proyecto y ejecuta el siguiente comando:
+1. Asegúrate de tener el SDK de Dart instalado en tu computador. 
+```
+dart --version
+```
+3. Coloca el archivo fuente `datos.json` en la misma raíz del script.
+4. Abre la terminal en el directorio del proyecto y ejecuta el siguiente comando:
 ```
 dart run Proyecto.dart
 ```
